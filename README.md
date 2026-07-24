@@ -1,2 +1,456 @@
 # guia-jardim-pequenos-espacos
 Landing page de vendas para o Guia Definitivo para Criar um Jardim Bonito e Saudável em Pequenos Espaços, com oferta de R$ 23,00 e bônus gratuito de Guia Contra Pragas.
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Definitivo para Criar um Jardim Bonito e Saudável</title>
+
+```
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f5f8f1;
+        color: #263b2b;
+        line-height: 1.6;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .hero {
+        background: linear-gradient(135deg, #234d32, #4f8a5b);
+        color: white;
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 46px;
+        line-height: 1.15;
+        max-width: 850px;
+        margin: 0 auto 25px;
+    }
+
+    .hero p {
+        font-size: 21px;
+        max-width: 720px;
+        margin: auto;
+        color: #eef7ed;
+    }
+
+    .button {
+        display: inline-block;
+        background: #f2b84b;
+        color: #263b2b;
+        text-decoration: none;
+        padding: 18px 38px;
+        border-radius: 50px;
+        font-size: 19px;
+        font-weight: bold;
+        margin-top: 30px;
+        transition: 0.3s;
+        box-shadow: 0 6px 15px rgba(0,0,0,0.18);
+    }
+
+    .button:hover {
+        transform: scale(1.05);
+        background: #ffc962;
+    }
+
+    .section {
+        padding: 70px 20px;
+    }
+
+    .section h2 {
+        text-align: center;
+        font-size: 34px;
+        margin-bottom: 45px;
+        color: #234d32;
+    }
+
+    .intro {
+        text-align: center;
+        max-width: 800px;
+        margin: auto;
+        font-size: 19px;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 25px;
+    }
+
+    .card {
+        background: white;
+        padding: 30px;
+        border-radius: 18px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+        text-align: center;
+    }
+
+    .card h3 {
+        margin-bottom: 12px;
+        color: #397044;
+    }
+
+    .card p {
+        color: #536257;
+    }
+
+    .bonus {
+        background: #e7f1df;
+        text-align: center;
+    }
+
+    .bonus-box {
+        background: white;
+        max-width: 750px;
+        margin: auto;
+        padding: 40px;
+        border-radius: 22px;
+        box-shadow: 0 6px 22px rgba(0,0,0,0.08);
+    }
+
+    .bonus-box h3 {
+        font-size: 28px;
+        color: #397044;
+        margin-bottom: 15px;
+    }
+
+    .price-section {
+        text-align: center;
+        background: #234d32;
+        color: white;
+    }
+
+    .price-section h2 {
+        color: white;
+    }
+
+    .old-price {
+        font-size: 20px;
+        text-decoration: line-through;
+        opacity: 0.7;
+    }
+
+    .price {
+        font-size: 60px;
+        font-weight: bold;
+        color: #f2b84b;
+        margin: 10px 0;
+    }
+
+    .price-description {
+        font-size: 18px;
+    }
+
+    .guarantee {
+        text-align: center;
+        background: #fffdf5;
+    }
+
+    .guarantee-box {
+        max-width: 750px;
+        margin: auto;
+        background: white;
+        padding: 35px;
+        border-radius: 20px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+    }
+
+    .faq {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    .faq-item {
+        background: white;
+        padding: 22px;
+        margin-bottom: 15px;
+        border-radius: 12px;
+        box-shadow: 0 3px 12px rgba(0,0,0,0.05);
+    }
+
+    .faq-item h3 {
+        color: #397044;
+        margin-bottom: 8px;
+    }
+
+    footer {
+        background: #172d1e;
+        color: #d9e6d9;
+        text-align: center;
+        padding: 25px;
+        font-size: 14px;
+    }
+
+    @media (max-width: 700px) {
+        .hero h1 {
+            font-size: 34px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        .section h2 {
+            font-size: 28px;
+        }
+
+        .price {
+            font-size: 48px;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<section class="hero">
+    <div class="container">
+        <h1>O Guia Definitivo para Criar um Jardim Bonito e Saudável em Pequenos Espaços</h1>
+
+        <p>
+            Descubra como transformar até os menores espaços em um jardim bonito,
+            organizado e cheio de vida — mesmo que você esteja começando agora.
+        </p>
+
+        <a href="COLOQUE_AQUI_SEU_LINK_DA_KIWIFY" class="button">
+            QUERO TRANSFORMAR MEU ESPAÇO
+        </a>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <h2>Seu espaço pode se transformar em um lugar especial</h2>
+
+        <p class="intro">
+            Você não precisa ter um quintal enorme para ter um jardim bonito.
+            Com as escolhas certas, planejamento e alguns cuidados simples,
+            é possível criar um ambiente verde, agradável e saudável mesmo em
+            apartamentos, varandas, sacadas e pequenos espaços.
+        </p>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+
+        <h2>O que você vai aprender</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🌱 Escolha das Plantas</h3>
+                <p>
+                    Aprenda a escolher plantas que combinam com o seu espaço,
+                    iluminação e rotina.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🏡 Aproveitamento do Espaço</h3>
+                <p>
+                    Descubra como aproveitar melhor cada cantinho, mesmo em
+                    ambientes pequenos.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>💧 Cuidados Essenciais</h3>
+                <p>
+                    Entenda os principais cuidados para manter suas plantas
+                    bonitas e saudáveis.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌿 Organização e Beleza</h3>
+                <p>
+                    Aprenda a combinar plantas e organizar seu jardim de forma
+                    bonita e harmoniosa.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section bonus">
+    <div class="container">
+
+        <h2>🎁 E você ainda recebe um bônus especial</h2>
+
+        <div class="bonus-box">
+
+            <h3>Guia Contra Pragas</h3>
+
+            <p>
+                Um guia gratuito para ajudar você a identificar e lidar com
+                problemas comuns que podem afetar suas plantas.
+            </p>
+
+            <p style="margin-top: 15px; font-weight: bold;">
+                BÔNUS GRATUITO INCLUSO NA SUA COMPRA!
+            </p>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+
+        <h2>Este guia é para você que...</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>✔ Tem pouco espaço</h3>
+                <p>
+                    Quer ter um jardim mesmo morando em apartamento ou possuindo
+                    uma pequena varanda.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>✔ Está começando agora</h3>
+                <p>
+                    Quer aprender de forma simples, prática e sem complicação.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>✔ Ama plantas</h3>
+                <p>
+                    Deseja deixar sua casa mais bonita, aconchegante e cheia de vida.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="section price-section">
+
+    <div class="container">
+
+        <h2>Comece hoje a transformar seu espaço</h2>
+
+        <p class="price-description">
+            Tenha acesso ao guia completo + bônus exclusivo
+        </p>
+
+        <div class="price">
+            R$ 23,00
+        </div>
+
+        <p>
+            Pagamento único • Acesso ao material digital
+        </p>
+
+        <a href="COLOQUE_AQUI_SEU_LINK_DA_KIWIFY" class="button">
+            QUERO MEU GUIA AGORA
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="section guarantee">
+
+    <div class="container">
+
+        <div class="guarantee-box">
+
+            <h2>💚 Compra segura</h2>
+
+            <p>
+                Faça sua compra com tranquilidade. Seu pagamento é processado
+                de forma segura pela Kiwify e você receberá as instruções de acesso
+                ao produto após a confirmação da compra.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section">
+
+    <div class="container">
+
+        <h2>Perguntas frequentes</h2>
+
+        <div class="faq">
+
+            <div class="faq-item">
+                <h3>Preciso ter um espaço grande?</h3>
+                <p>
+                    Não. O guia foi pensado justamente para ajudar você a criar
+                    um jardim bonito mesmo em pequenos espaços.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Preciso entender de jardinagem?</h3>
+                <p>
+                    Não. O conteúdo foi desenvolvido para iniciantes e pessoas
+                    que desejam aprender de maneira simples.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>O bônus está incluso?</h3>
+                <p>
+                    Sim. O Guia Contra Pragas é um bônus gratuito incluso na compra.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Como receberei o acesso?</h3>
+                <p>
+                    Após a confirmação do pagamento, você receberá as instruções
+                    de acesso ao material digital.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer>
+    © 2026 - Guia Definitivo para Criar um Jardim Bonito e Saudável
+</footer>
+```
+
+</body>
+</html>
